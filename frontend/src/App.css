@@ -1,24 +1,240 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
+.app-header {
   background-color: #222;
-  height: 150px;
+  text-align: center;
+  height: 80px;
   padding: 20px;
   color: white;
 }
 
-.App-intro {
-  font-size: large;
+.row-filter-sort {
+  height: 50px;
+  font-size: small;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.column-filter-sort {
+  float: left;
+  width: 25%;
+}
+
+.select-format {
+  padding: 11.5px;
+}
+
+.text-filter-sort {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.add-post-section {
+  float: left;
+  height: 90px;
+  width: 100%;
+}
+
+.add-post-icon {
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+}
+
+.add-post-text {
+  height: 75px;
+  float: left;
+  margin-top: 25px;
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.detailpost-header {
+  background-color: #222;
+  text-align: center;
+  height: 80px;
+  padding: 20px;
+  color: white;
+  list-style-type: none
+}
+
+.detailpost-vote {
+  float: left;
+  width: 48%;
+  height: 100px;
+  margin-left: 2%;
+  display: block;
+}
+
+.detailpost-textarea {
+  display: block;
+  resize: none;
+  float: left;
+  width: 47%;
+  height: 95px;
+  border-style: solid;
+  margin-left: 2%;
+  margin-bottom: 30px;
+}
+
+.textarea-title {
+  display: block;
+  margin-left: 2%;
+  margin-top: 50px;
+}
+
+.detailpost-maxcharacter {
+  margin-left: 2%;
+  font-size: 12px;
+  width: 100%;
+  height: 20px;
+  float: left;
+}
+
+.detailpost-hr {
+  width: 95%;
+}
+
+.add-comment-section {
+float: left;
+height: 90px;
+width: 100%;
+}
+
+.edit-button {
+  margin-right: 15px;
+}
+
+.vote-text {
+  margin-left: 10px;
+}
+
+.author-timestamp-text {
+  font-size: 10px;
+  font-style: italic;
+  margin-top: -2px;
+  margin-bottom: 14px;
+}
+
+.comment-text-style {
+  font-size: 13px;
+  color: #5B5959;
+  margin-top: 5px;
+}
+
+.back-button {
+  width: 50px;
+  margin-left: 10px;
+  float: left;
+}
+
+.back-button-text {
+  margin-left: 5px;
+  font-size: 15px;
+  margin-top: 16px;
+  float: left;
+}
+
+.detail-page-section {
+  height: 10px;
+  width: 100%;
+}
+
+.post-style {
+  list-style-type: ;
+  padding: 0;
+  border: solid;
+  margin-bottom: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.category-text-style {
+  font-size: 14px;
+}
+
+.date-text-style {
+  font-size: 16px;
+}
+
+.vote-text-style {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.plus-icon-style {
+  width: 23px;
+  float: left;
+  margin-left: 3px;
+}
+
+.minus-icon-style {
+  width: 23px;
+  float: left;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.modal {
+  position: absolute;
+  top: 40px;
+  left: 200px;
+  right: 200px;
+  bottom: 40px;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,.24), 0 3px 12px 0 rgba(0,0,0,.12);
+  min-width: 500px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.modal-input {
+  display: flex;
+  width: 98%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #bdbdbd;
+  outline: none;
+}
+
+.modal-label {
+  margin-top: 10px;
+}
+
+.modal-select {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.modal-textarea {
+  resize: none;
+  float: left;
+  width: 100%;
+  height: 130px;
+  border-style: solid;
+  margin-top: 20px;
+}
+
+.modal-btn {
+  margin-left: 25%;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #222;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
 }
